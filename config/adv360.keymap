@@ -25,6 +25,7 @@
   keymap {
     compatible = "zmk,keymap";
 
+    /**Both default layer and base layer have left shift key in thumb cluster instead of delete**/
     default_layer {
       display-name = "Base";
       bindings = <
